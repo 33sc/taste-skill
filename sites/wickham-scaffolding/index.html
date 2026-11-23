@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en" data-type="service" data-radius="soft" data-buttons="arrow" data-motion>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wickham Scaffolding: scaffolders in Wickham and across Hampshire</title>
+<meta name="description" content="Scaffolding for homes, builders and businesses from a firm in the Meon Valley. Written quotes with the hire weeks included, and a down date you can hold us to.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Wickham Scaffolding: scaffolders in Wickham and across Hampshire">
+<meta property="og:description" content="Written quotes with the hire weeks included, and a down date you can hold us to.">
+<meta property="og:image" content="share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f5f3ee">
+<!-- <link rel="canonical" href="https://[the client's domain]/"> -->
+<meta name="site-kind" content="other">
+<meta name="page-type" content="service">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/system.css">
+<link rel="stylesheet" href="assets/ui/cards.css">
+<link rel="stylesheet" href="assets/motion/motion.css">
+<link rel="stylesheet" href="assets/layout/layout.css">
+<link rel="stylesheet" href="assets/diagrams/diagram.css">
+<style>
+:root {
+  --p-bg: #f5f3ee; --p-surface: #e8e8e2; --p-ink: #0d2d21; --p-muted: #53685c;
+  --p-accent: #f7ad30; --p-accent-ink: #111111; --p-action: #0d2d21; --p-action-ink: #f5f3ee;
+  --p-inv-bg: #0d2d21; --p-inv-surface: #1d392d; --p-inv-ink: #f5f3ee; --p-inv-muted: #97a299;
+  --p-inv-accent: #f7ad30; --p-inv-accent-ink: #111111; --p-inv-action: #f7ad30; --p-inv-action-ink: #111111;
+  --font-display: "Schibsted Grotesk", system-ui, sans-serif;
+  --font-text: "Schibsted Grotesk", system-ui, sans-serif;
+  --display-weight: 400;
+  --display-tracking: -0.035em;
+  --display-tracking-xl: -0.042em;
+  --ly-scale: 0.98;
+}
+</style>
+<script>document.documentElement.classList.add('m-enter');setTimeout(()=>document.documentElement.classList.add('m-enter-done'),700)</script>
+<script>document.documentElement.classList.add('mo-js');setTimeout(()=>document.documentElement.classList.add('mo-safe'),2500)</script>
+<link rel="modulepreload" href="assets/moments/moments.js">
+<link rel="modulepreload" href="assets/moments/lib.js">
+<link rel="modulepreload" href="assets/moments/word-highlight/moment.js">
+<link rel="modulepreload" href="assets/moments/picture-develops/moment.js">
+<!-- page CSS: the client's logo at a size its second line reads; the callback form's panel -->
+<style>
+  .nav__logo img { height: 40px; }
+  .footer .nav__logo img { height: 48px; }
+  #services .develop { aspect-ratio: 628 / 690; border-radius: var(--r-lg); }
+  .prices__panel { --p-h: 300px; }
+  /* on a phone the price rows keep the name and the price; the diagram stands a little lower */
+  @media (max-width: 639px) { #prices .rows > li > p { display: none; } .prices__panel { --p-h: 240px; } }
+  .callback__phone { white-space: nowrap; }
+  @media (min-width: 640px) and (max-width: 1023px) { #services { --h: 2 } }
+  .footer .hours > * { display: flex; align-items: center; min-height: 44px; }
+  #prices .rows__value { font-variant-numeric: normal; }
+  /* the phone bar is off this page: under 640 the nav's button waits in the menu sheet, as it would with the bar */
+  @media (max-width: 639px) { .nav:not(.is-open) .nav__actions { display: none; } .nav.nav--centre:not(.is-open) .nav__actions + .nav__toggle { margin-left: auto; } }
+</style>
+</head>
+<body>
+<!-- type: service (a scaffolding contractor: people hire it; site-kind other)
+     deal: hero split, nav nav-centre, close close-type, footer footer-visit, rhythm space, buttons arrow,
+     mark: the client's own logo (replaces the dealt wordmark), grounds none (kind other)
+     palette: the client's own colours through start.mjs brand (logo green #0d2d21, cream #f5f3ee, scaffold-pole amber #f7ad30)
+     type: schibsted (Schibsted Grotesk)
+     moments: word-highlight in #harry (who you deal with, said once and slowly);
+              picture-develops (film) on the services photograph (the work comes up as the list is read)
+     diagram: one still tree in #prices (what every written quote covers)
+     photo-chapters and pinned-chapters were dealt first and dealt again: the client has four photographs, not one per chapter -->
+
+<header class="nav nav--centre">
+  <div class="wrap nav__bar">
+    <a class="skip-link" href="#top">Skip to content</a>
+    <a class="nav__logo" href="#top" aria-label="Wickham Scaffolding, back to top"><img src="assets/client/logo.svg" alt="Wickham Scaffolding" width="141" height="48"></a>
+    <nav class="nav__links" aria-label="Main">
+      <div class="nav__item">
+        <a class="nav__link" href="#services">Services <svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <div class="nav__menu">
+          <div class="wrap grid">
+            <div class="menu-col span-4">
+              <p class="t-label">For homes</p>
+              <a href="#svc-house">House scaffolding<span>Front, back or all four sides</span></a>
+              <a href="#svc-chimney">Chimney scaffolds<span>One stack, from £350</span></a>
+              <a href="#svc-roof">Roof and gutter access<span>A working lift at the eaves</span></a>
+            </div>
+            <div class="menu-col span-4">
+              <p class="t-label">For trades and property</p>
+              <a href="#svc-temp">Temporary roofs<span>Weather out during a re-roof</span></a>
+              <a href="#svc-edge">Edge protection and towers<span>Flat roofs and smaller jobs</span></a>
+              <a href="#svc-commercial">Commercial and new-build<span>Loading bays, ladders, netting</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav__item"><a class="nav__link" href="#prices">Prices</a></div>
+      <div class="nav__item"><a class="nav__link" href="#how">How it works</a></div>
+      <div class="nav__item"><a class="nav__link" href="#questions">Questions</a></div>
+    </nav>
+    <div class="nav__actions">
+      <a class="btn btn--primary" href="#callback">Request a callback</a>
+    </div>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-label="Menu">
+      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 5h14M2 13h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero hero--split" data-enter aria-labelledby="hero-h">
+    <div class="wrap"><div class="hero-text grid hero__grid">
+      <div class="hero__text span-5">
+        <p class="hero__kicker"><span class="dot" aria-hidden="true"></span>Chimney scaffolds from £350, quotes free</p>
+        <h1 id="hero-h">Scaffolders in Wickham and across Hampshire</h1>
+        <p class="hero__lead">For homes, builders and businesses. You speak to Harry, get a written quote with the hire weeks included, and know the day it comes down.</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="#callback">Request a callback<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a>
+          <a class="btn btn--secondary" href="tel:+447700900123">Call 07700 900123</a>
+        </div>
+      </div>
+      <div class="hero__media span-6 start-7">
+        <img src="assets/client/g1.webp" alt="A scaffold up the gable of a brick-and-flint cottage, reaching the chimney, with the front garden untouched" style="--ly-pos: 62% 40%" width="896" height="1200" fetchpriority="high" data-source="client" data-subject="chimney scaffold on a cottage">
+        <div class="ly-float">
+          <div class="ly-float__row"><span>In every quote</span><span>In writing</span></div>
+          <div class="ly-float__title">The hire weeks, the extra-week price and the down date</div>
+        </div>
+      </div>
+    </div></div>
+  </section>
+
+  <!-- word-highlight: one statement in its own section, one strong word in <strong> -->
+  <section class="section statement" id="harry" data-moment="word-highlight" aria-label="Who you deal with">
+    <div class="wrap">
+      <p class="t-label">Who you deal with</p>
+      <p class="mo-wh__text">Wickham Scaffolding is Harry’s firm, based in Wickham in the Meon Valley. Harry prices every job himself, his CISRS-carded team builds it, and his is <strong>the number you ring</strong> if anything changes.</p>
+    </div>
+  </section>
+
+  <section class="section" id="services" style="--hm: 2" aria-labelledby="services-h">
+    <div class="wrap grid grid--top">
+      <div class="span-5">
+        <div class="section-head">
+          <h2 id="services-h">Scaffolding we put up</h2>
+          <p>Not sure what you need? WhatsApp Harry a few photos and he’ll tell you.</p>
+        </div>
+        <ul class="rows">
+          <li id="svc-house"><span class="rows__name">House scaffolding</span><p>Front, back or the whole house, for roofers, builders and painters.</p></li>
+          <li id="svc-chimney"><span class="rows__name">Chimney scaffolds</span><p>One stack, for repointing, new flashing, a cowl or taking it down.</p></li>
+          <li id="svc-roof"><span class="rows__name">Roof and gutter access</span><p>A working lift at the eaves for fascias, gutters and solar panels.</p></li>
+          <li id="svc-temp"><span class="rows__name">Temporary roofs</span><p>Keeps the rain out during a re-roof or after storm damage.</p></li>
+          <li id="svc-edge"><span class="rows__name">Edge protection and towers</span><p>Guard rails for flat roofs, and freestanding towers for small jobs.</p></li>
+          <li id="svc-commercial"><span class="rows__name">Commercial and new-build</span><p>Loading bays, ladder access and netting for sites, blocks and shops.</p></li>
+        </ul>
+      </div>
+      <!-- picture-develops (film look): the work comes up out of the paper as the list is read -->
+      <figure class="develop span-6 start-7" data-moment="picture-develops"><img src="assets/client/g2.webp" alt="A three-storey brick building wrapped in scaffold, with a loading bay and roofers at work on the top lift" width="896" height="1200" loading="lazy" data-source="client" data-subject="scaffold on a three-storey building"></figure>
+    </div>
+  </section>
+
+  <section class="section" id="prices" style="--hm: 2" aria-labelledby="prices-h">
+    <div class="wrap grid grid--top">
+      <div class="span-5 stack-5">
+        <div class="section-head">
+          <h2 id="prices-h">Guide prices for common jobs</h2>
+          <p>Each price covers putting it up, the hire weeks in your quote, the weekly inspections and taking it down.</p>
+        </div>
+        <p>Height, access and the number of lifts change the price. A pavement licence, netting or an alarm is listed separately when a job needs one.</p>
+        <p><a class="link" href="https://wa.me/447700900123">Send photos for a guide price</a></p>
+        <div class="panel prices__panel"><div class="dg" data-diagram data-dg-still><script type="application/json">{"layout":"tree","alt":"Every written quote covers putting the scaffold up on an agreed day, the hire weeks with the price of an extra week, inspections every 7 days and taking it down on the down date.","ground":"none","motion":{"pulse":"none"},"root":{"label":"Your written quote","icon":"ui:file-text","children":[{"label":"Up","icon":"ui:calendar","children":[{"label":"Agreed day","done":true}]},{"label":"Hire weeks","icon":"ui:clock","children":[{"label":"Extra-week price","done":true}]},{"label":"Inspections","icon":"ui:clipboard-check","children":[{"label":"Every 7 days","done":true}]},{"label":"Down","icon":"ui:calendar-check","children":[{"label":"Down date","done":true}]}]}}</script></div></div>
+      </div>
+      <ul class="rows span-6 start-7">
+        <li><span class="rows__name">Chimney scaffold</span><p>One stack on a terraced, semi or detached house</p><span class="rows__value">from £350</span></li>
+        <li><span class="rows__name">One side, two storeys</span><p>Front or back, for roofing, gutters, windows or painting</p><span class="rows__value">from £450</span></li>
+        <li><span class="rows__name">Front and back</span><p>The usual set-up for re-roofing a terrace or semi</p><span class="rows__value">from £750</span></li>
+        <li><span class="rows__name">Whole house, two storeys</span><p>All four sides, for a re-roof, rendering or a repaint</p><span class="rows__value">from £1,200</span></li>
+        <li><span class="rows__name">Bungalow</span><p>Low-level access for roofs, gutters and fascias</p><span class="rows__value">from £200 a side</span></li>
+        <li><span class="rows__name">Edge protection</span><p>Guard rails for flat roofs and roof edges</p><span class="rows__value">from £350</span></li>
+        <li><span class="rows__name">Temporary roof</span><p>Designed for each building</p><span class="rows__value">from about £3,000</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="how" style="--hm: 2" aria-labelledby="how-h">
+    <div class="wrap grid grid--top">
+      <div class="span-5">
+        <div class="section-head">
+          <h2 id="how-h">How a job runs, in four steps</h2>
+        </div>
+        <ol class="rows">
+          <li><span class="rows__name">1. Call Harry, or send photos</span><p>Ring, ask for a callback or WhatsApp photos of the house. We reply within 24 hours.</p></li>
+          <li><span class="rows__name">2. Get a written quote</span><p>A fixed price, the hire weeks, the price of an extra week and the day it goes up.</p></li>
+          <li><span class="rows__name">3. Up on the agreed day</span><p>Our CISRS-carded team builds it. It’s inspected before first use, every 7 days and after high winds.</p></li>
+          <li><span class="rows__name">4. Down when you’re done</span><p>Tell Harry the work is finished and it comes down on the date in your quote.</p></li>
+        </ol>
+      </div>
+      <div class="frame frame--photo span-6 start-7" style="--ratio: 100%">
+        <img class="frame__img" src="assets/client/g3.webp" alt="A gloved hand tightening a scaffold fitting with a spanner, a brick wall behind" style="object-position: 70% 50%" width="1376" height="768" loading="lazy" data-source="client" data-subject="tightening a scaffold fitting">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="questions" style="--hm: 2" aria-labelledby="questions-h">
+    <div class="wrap grid grid--top">
+      <div class="span-5 stack-4">
+        <h2 id="questions-h">Questions before you book</h2>
+        <p>Something else? Harry is on <a class="link" href="tel:+447700900123">07700 900123</a>.</p>
+      </div>
+      <div class="faq span-6 start-7">
+        <div class="faq__item"><h3>How long can the scaffold stay up?</h3><p>As long as your quote says. It lists the hire weeks and what an extra week costs, so a builder running late is no surprise bill.</p></div>
+        <div class="faq__item"><h3>Does scaffolding on the pavement need a licence?</h3><p>Yes, from the council. We apply for you; most need 10 working days’ notice, and the fee is on your quote.</p></div>
+        <div class="faq__item"><h3>Is your scaffolding work insured?</h3><p>Yes, fully. We send a copy of the certificate whenever you ask, with your quote on a commercial job.</p></div>
+        <div class="faq__item"><h3>Is a scaffold a security risk?</h3><p>Tell your home insurer before it goes up. Each evening we take the bottom ladder away or lock it off.</p></div>
+        <div class="faq__item"><h3>Which towns in Hampshire do you cover?</h3><p>All of it. Fareham is ten minutes away; Portsmouth, Southampton and Winchester about half an hour; Basingstoke and the New Forest too.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="callback" style="--hm: 2" aria-labelledby="callback-h">
+    <div class="wrap grid grid--top">
+      <div class="span-5 stack-5">
+        <div class="section-head">
+          <h2 id="callback-h">Call Harry, or ask him to call you</h2>
+          <p>A phone call is quickest: <a class="link callback__phone" href="tel:+447700900123">07700 900123</a>. Busy? Leave your details and Harry rings you back.</p>
+        </div>
+        <form class="form" action="mailto:harry@wickham-scaffolding.example" method="post" enctype="text/plain" data-endpoint="" data-sent="Your callback request is in. Harry will ring you within 24 hours." novalidate>
+          <div class="field"><label for="f-name">Your name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="f-name-err">
+            <p class="field__error" id="f-name-err" hidden>Write the name Harry should ask for.</p></div>
+          <div class="field"><label for="f-phone">Phone number</label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel" required aria-describedby="f-phone-err">
+            <p class="field__error" id="f-phone-err" hidden>Write a phone number Harry can ring.</p></div>
+          <div class="field"><label for="f-town">Postcode or town</label>
+            <input id="f-town" name="town" type="text" autocomplete="postal-code" required aria-describedby="f-town-err">
+            <p class="field__error" id="f-town-err" hidden>Write where the job is, a postcode or a town.</p></div>
+          <div class="field"><label for="f-job">What’s the job?</label>
+            <select id="f-job" name="job">
+              <option>Roof or chimney</option><option>Gutters, fascias or painting</option><option>Rendering or windows</option><option>Solar panels</option><option>Extension or new build</option><option>Temporary roof or storm damage</option><option>Edge protection or a tower</option><option>Commercial building</option><option>Something else</option>
+            </select></div>
+          <div class="btn-row"><button class="btn btn--primary" type="submit">Request a callback</button></div>
+          <p class="form__status" role="status" data-form-status></p>
+          <p class="t-small">We only use your details to call you back about this job.</p>
+        </form>
+      </div>
+      <!-- CLIENT FILE film: assets/client/hero.mp4 (1600x906, 12 s, the view from a working lift) and its poster
+           assets/client/film-poster.webp; plays on a click -->
+      <figure class="frame frame--photo span-6 start-7" style="--ratio: 112%">
+        <video class="frame__img" controls playsinline preload="none" poster="assets/client/film-poster.webp" aria-label="The view over village rooftops and a church tower from a working scaffold lift" data-source="client" data-subject="view from a scaffold lift">
+          <source src="assets/client/hero.mp4" type="video/mp4">
+        </video>
+      </figure>
+    </div>
+  </section>
+</main>
+
+<footer class="footer closing footer--visit" id="contact" aria-labelledby="close-h">
+  <div class="wrap">
+    <div class="closing__cta close--type">
+      <div class="section-head">
+        <h2 id="close-h">Get a written quote from Harry</h2>
+        <p>Quotes are free. We reply within 24 hours.</p>
+      </div>
+      <a class="btn btn--primary btn--xl btn--wide" href="#callback">Request a callback<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a>
+    </div>
+    <div class="closing__links">
+      <div class="grid">
+        <div class="span-6 stack-4">
+          <address class="footer__address">Wickham, Meon Valley</address>
+          <p>Working across Hampshire, from Fareham, Portsmouth and Southampton to Winchester, Basingstoke and the New Forest.</p>
+          <p><a class="link" href="https://www.openstreetmap.org/search?query=Wickham%20Hampshire">See the area</a></p>
+        </div>
+        <div class="span-6 start-7 stack-4">
+          <h3>Contact</h3>
+          <dl class="hours">
+            <dt>Phone</dt><dd><a href="tel:+447700900123">07700 900123</a></dd>
+            <dt>WhatsApp</dt><dd><a href="https://wa.me/447700900123">Send photos</a></dd>
+            <dt>Reply</dt><dd>Within 24 hours</dd>
+          </dl>
+        </div>
+      </div>
+      <div class="footer__legal">
+        <span>&copy; 2026 Wickham Scaffolding &nbsp; <a href="privacy.html">Privacy</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="assets/system.js"></script>
+<script type="module" src="assets/motion/motion.js"></script>
+<script type="module" src="assets/layout/layout.js"></script>
+<script type="module" src="assets/diagrams/mount.js"></script>
+</body>
+</html>
