@@ -1,0 +1,32 @@
+# working files of the build (screenshots, checker output)
+shots/
+.taste-skill/
+# the page ships only the parts of the taste-skill kit it loads
+assets/*
+!assets/img/
+!assets/system.css
+!assets/system.js
+!assets/ui/
+assets/ui/*
+!assets/ui/cards.css
+!assets/ui/ui.js
+!assets/ui/base.css
+!assets/motion/
+!assets/backgrounds/
+assets/backgrounds/*
+!assets/backgrounds/backgrounds.css
+!assets/backgrounds/backgrounds.js
+!assets/layout/
+assets/layout/*
+!assets/layout/layout.css
+!assets/layout/layout.js
+!assets/icons/
+assets/icons/*
+!assets/icons/icon.css
+!assets/moments/
+assets/moments/*
+!assets/moments/moments.js
+!assets/moments/lib.js
+!assets/moments/index.json
+!assets/moments/pinned-chapters/
+!assets/moments/picture-develops/
