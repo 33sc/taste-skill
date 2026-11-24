@@ -1,0 +1,64 @@
+{
+ "note": "Credits for the photographs in this folder: photos.mjs credits prints the footer block for the ones the pages use.",
+ "photos": [
+  {
+   "file": "photo-f19758290.webp",
+   "files": [
+    "photo-f19758290-500.webp",
+    "photo-f19758290-960.webp",
+    "photo-f19758290.webp"
+   ],
+   "id": "f19758290",
+   "alt": "All Season tire tread and code",
+   "by": "Ken T1381",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:All_Season_tire_tread_and_code.JPG",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-f58963082.webp",
+   "files": [
+    "photo-f58963082-500.webp",
+    "photo-f58963082-960.webp",
+    "photo-f58963082.webp"
+   ],
+   "id": "f58963082",
+   "alt": "Car tire stack 20170516",
+   "by": "Santeri Viinamäki",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Car_tire_stack_20170516.jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-f47321044-960.webp",
+   "files": [
+    "photo-f47321044-500.webp",
+    "photo-f47321044-960.webp"
+   ],
+   "id": "f47321044",
+   "alt": "Kreuzschlüssel,Lug wrenches",
+   "by": "M_H.DE",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Kreuzschl%C3%BCssel,Lug_wrenches.jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-f4305039.webp",
+   "files": [
+    "photo-f4305039-500.webp",
+    "photo-f4305039-960.webp",
+    "photo-f4305039.webp"
+   ],
+   "id": "f4305039",
+   "alt": "2008-05-01 Tyre",
+   "by": "Ildar Sagdejev ( Specious )",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2008-05-01_Tyre.jpg",
+   "source": "Wikimedia Commons"
+  }
+ ]
+}

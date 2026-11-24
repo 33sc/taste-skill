@@ -1,0 +1,6 @@
+shots/
+# kit folders this page never loads (the full kit lives in skills/taste-skill/assets)
+assets/photos/
+assets/objects/
+assets/scenes/
+assets/effects/
